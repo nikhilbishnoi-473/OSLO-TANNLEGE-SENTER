@@ -36,3 +36,52 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 3000);
   });
 });  
+
+
+
+
+
+
+
+
+
+
+
+$('.responsive_2').slick({
+  dots: false,
+  infinite: false,
+  speed: 300,
+  infinite: true,
+  centerMode: true,
+  variableWidth: true,
+  arrows: false,
+  autoplay: false,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    }
+
+  ]
+});

@@ -10,11 +10,11 @@
 
 @font-face {
     font-family: "Avenir";
-    src: url(../font/avenir/avenir_roman_12\ copy.otf);
+    src: url(../font/avenir/avenirroman12copy.otf);
 }
 
 @font-face {
-    font-family: "Avenir LT Std";
+    font-family: "AvenirLTStd";
     src: url(../font/Avenir\ LT\ Std/);
 }
 
@@ -669,6 +669,18 @@
     margin-bottom: 72px;
 }
 
+.responsive_2 .slick-current .slider_box {
+    opacity: 100% !important;
+
+}
+
+.responsive_2 .slick-list {
+    margin: 0 -12px;
+}
+
+.responsive_2 .slick-slide {
+    margin: 0 12px;
+}
 
 
 
