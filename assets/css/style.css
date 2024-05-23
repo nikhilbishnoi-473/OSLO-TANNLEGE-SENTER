@@ -430,13 +430,9 @@
     padding-top: 53px;
 }
 
-.max-w-650 {
-    max-width: 650px;
-}
 
-.max-w-661 {
-    max-width: 661px;
-}
+
+
 
 .pt-75 {
     padding-top: 75px;
@@ -466,7 +462,7 @@
     width: 100%;
     height: 315px;
     background: #77C7C980;
-    top: 44%;
+    top: 43%;
     left: 0;
     z-index: -1;
 }
@@ -720,8 +716,13 @@
     left: 20%;
 
 }
-.max-w-901{
+
+.max-w-901 {
     max-width: 901px;
+}
+
+.max-w-480 {
+    max-width: 480px;
 }
 
 
@@ -751,6 +752,13 @@
         max-width: 581px;
     }
 
+    .max-w-650 {
+        max-width: 650px;
+    }
+
+    .max-w-661 {
+        max-width: 661px;
+    }
 
 }
 
@@ -770,6 +778,13 @@
     .pt___20 {
         padding-top: 20px;
     }
+    .bg_color_2 {
+        top: 58%;
+    }
+    .pt-155{
+        padding-top: 100px;
+    }
+    
 
 }
 
@@ -789,13 +804,23 @@
     .pt__20 {
         padding-top: 20px;
     }
-    .bg_color{
-        height:  640px;
+
+    .bg_color {
+        height: 640px;
+    }
+    .pt-155{
+        padding-top: 80px;
     }
 }
 
 
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+
+    .bg_color_2 {
+        top: 62%;
+    }
+    
+}
 
 
 
@@ -923,9 +948,24 @@
     .pt-53 {
         padding-top: 40px;
     }
-    .bg_color{
-        height:  550px;
+
+    .bg_color {
+        height: 550px;
     }
+
+    .pt-76 {
+        padding-top: 40px;
+    }
+    .pt-75{
+        padding-top: 40px;
+    }
+    .bg_color_2 {
+        top: 58%;
+    }
+    .pt-155{
+        padding-top: 40px;
+    }
+    
 }
 
 @media (min-width: 575px) {
@@ -942,7 +982,8 @@
         max-width: 473px;
     }
 
-    
+
+
 }
 
 @media (max-width: 575px) {
@@ -983,6 +1024,7 @@
 
         height: 440px;
     }
+
     .pt-56 {
         padding-top: 20px;
     }
@@ -995,6 +1037,26 @@
         padding-top: 25px;
     }
 
+    .gap-73 {
+        gap: 31px;
+    }
+
+    .pt-76 {
+        padding-top: 20px;
+    }
+.pt-75{
+    padding-top: 15px;
+}
+.pt-40{
+    padding-top: 15px;
+}
+.bg_color_2 {
+    top: 53%;
+}
+.pt-155{
+    padding-top: 20px;
+}
+
 }
 
 @media (max-width: 420px) {
@@ -1002,4 +1064,8 @@
 
         height: 513px;
     }
+    .bg_color_2 {
+        top: 55%;
+    }
+    
 }
