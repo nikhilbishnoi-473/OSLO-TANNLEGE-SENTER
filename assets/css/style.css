@@ -31,12 +31,27 @@
     outline: none;
     background: linear-gradient(146.43deg, #FF2801 1.77%, #FF6B0A 62.74%);
     cursor: pointer;
-    padding: 12px;
+    padding: 20px;
     border-radius: 50px;
     transition: all 400ms linear;
 }
 
-
+.play_btn{
+    position: relative;
+}
+.play_btn::after{
+    content: "";
+    position: absolute;
+    background-image: url(../image/svg/playbtn.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 105px;
+    height: 105px; 
+    top: 47%;
+    left: 48%;
+    z-index: 3;
+}
 .link:hover {
     text-decoration: none;
     color: var(--bg-color);
@@ -1365,6 +1380,11 @@ padding-right: 5px;
 
     .after_img::after {
         display: none;
+    }
+    .play_btn::after{
+        left: 42%;
+        width: 60px;
+        height: 60px;
     }
 }
 
