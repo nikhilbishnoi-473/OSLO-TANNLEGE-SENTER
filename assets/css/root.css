@@ -41,10 +41,17 @@
     --btn-border: #77C7C9;
     --text-p: #606060;
     --border-btn-2: #FF649952;
+    --box-bg: #E7F8F8;
+    --box-bg-2: #BBE3E4;
 
 
 }
-
+.box-bg-2{
+    color: var(--box-bg-2);
+}
+.box-bg{
+    color: var(--box-bg);
+}
 .border-btn-2 {
     color: var(--border-btn-2);
 }

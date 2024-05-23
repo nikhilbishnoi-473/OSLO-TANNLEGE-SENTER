@@ -109,7 +109,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--bg-color);
+    background-color: var(--black);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -229,10 +229,7 @@
     margin-top: 80px !important;
 }
 
-.max-width_logo {
-    max-width: 200px !important;
-}
-
+ 
 .cursor {
     cursor: pointer;
 }
@@ -440,7 +437,7 @@
 .bg_color {
     width: 100%;
     height: 540px;
-    background: #C3EDED40;
+    background: var(--box-bg);
     top: 0;
     left: 0;
     z-index: 0;
@@ -493,7 +490,7 @@
 .bg_color_2 {
     width: 100%;
     height: 315px;
-    background: #77C7C980;
+    background: var(--box-bg-2);
     top: 43%;
     left: 0;
     z-index: -1;
