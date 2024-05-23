@@ -7,7 +7,7 @@
     --fs-xxl: 20px;
     --fs-3xl: 30px;
     --fs-4xl: 32px;
-    --fs-5xl: 21px;
+    --fs-5xl: 20px;
     --fs-6xl: 30px;
     --fs-7xl: 26px;
     /* font-weight: ; */
@@ -232,10 +232,10 @@
         --line-24: 24px;
         --line-32: 32px;
         --line-33: 33px;
-        --line-36: 32px;
+        --line-36: 30px;
         --line-43: 43px;
         --line-47: 40px;
-        --line-55: 49px;
+        --line-55: 40px;
         --line-60: 40px;
         --line-62: 62px;
         /* color: ; */
@@ -284,7 +284,7 @@
         --line-36: 36px;
         --line-43: 43px;
         --line-47: 47px;
-        --line-55: 51px;
+        --line-55: 42px;
         --line-60: 60px;
         --line-62: 62px;
         /* color: ; */
