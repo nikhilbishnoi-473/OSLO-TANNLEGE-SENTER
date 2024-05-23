@@ -804,8 +804,14 @@ z-index: 3;
     right: 0;
     z-index: -2;
 }
-
-
+.prev_btn{
+    top: 246%;
+    right: 13%;
+}
+.next_btn{
+    top: 246%;
+    left: 13%;
+}
 
 
 

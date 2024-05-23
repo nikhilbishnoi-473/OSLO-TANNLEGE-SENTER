@@ -52,6 +52,8 @@ $('.responsive_2').slick({
   infinite: false,
   speed: 300,
   infinite: true,
+  prevbtn: ".prevbtn",
+  nextbtn: ".nextBtn",
   centerMode: true,
   variableWidth: true,
   arrows: false,
