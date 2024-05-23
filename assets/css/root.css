@@ -3,12 +3,12 @@
     --fs-sm: 12px;
     --fs-md: 18px;
     --fs-lg: 20px;
-    --fs-xl: 24px;
-    --fs-xxl: 28px;
+    --fs-xl: 18px;
+    --fs-xxl: 20px;
     --fs-3xl: 30px;
     --fs-4xl: 32px;
-    --fs-5xl: 40px;
-    --fs-6xl: 48px;
+    --fs-5xl: 21px;
+    --fs-6xl: 30px;
     --fs-7xl: 60px;
     /* font-weight: ; */
     --fw-400: 400;
@@ -22,12 +22,12 @@
     --line-24: 24px;
     --line-32: 32px;
     --line-33: 33px;
-    --line-36: 36px;
+    --line-36: 30px;
     --line-43: 43px;
-    --line-47: 47px;
-    --line-55: 55px;
-    --line-60: 60px;
-    --line-62: 62px;
+    --line-47: 35px;
+    --line-55: 43px;
+    --line-60: 35px;
+    --line-62: 50px;
     /* color: ; */
     --white: #FFFFFF;
     --black: #000000;
@@ -65,7 +65,7 @@
 }
 
 .avenir_std {
-    font-family: 'Avenir LT Std';
+    font-family: 'AvenirLTStd';
 }
 
 .white {
@@ -202,4 +202,151 @@
 
 .fs-60 {
     font-size: var(--fs-7xl);
+}
+
+
+
+@media (min-width: 575px) {
+    :root {
+        /* font-size: ; */
+        --fs-sm: 12px;
+        --fs-md: 18px;
+        --fs-lg: 20px;
+        --fs-xl: 21px;
+        --fs-xxl: 24px;
+        --fs-3xl: 30px;
+        --fs-4xl: 32px;
+        --fs-5xl: 28px;
+        --fs-6xl: 36px;
+        --fs-7xl: 60px;
+        /* font-weight: ; */
+        --fw-400: 400;
+        --fw-500: 500;
+        --fw-600: 600;
+        --fw-750: 750;
+        --fw-800: 800;
+        --fw-900: 900;
+        /* line-height: ; */
+        --line-16: 16px;
+        --line-24: 24px;
+        --line-32: 32px;
+        --line-33: 33px;
+        --line-36: 32px;
+        --line-43: 43px;
+        --line-47: 40px;
+        --line-55: 49px;
+        --line-60: 40px;
+        --line-62: 62px;
+        /* color: ; */
+        --white: #FFFFFF;
+        --black: #000000;
+        --light-black: #606060;
+        --black-3: #333333;
+        --color-1: #39B0B5;
+        --pink: #EDC2D1;
+        --pink-2: #FF6499;
+        --bg-color: #C3EDED;
+        --btn-color: #87EEF0;
+        --btn-border: #77C7C9;
+        --text-p: #606060;
+    --border-btn-2: #FF649952;
+    
+    
+    }
+}
+@media (min-width: 768px) {
+    :root {
+        /* font-size: ; */
+        --fs-sm: 12px;
+        --fs-md: 18px;
+        --fs-lg: 20px;
+        --fs-xl: 24px;
+        --fs-xxl: 28px;
+        --fs-3xl: 30px;
+        --fs-4xl: 32px;
+        --fs-5xl: 35px;
+        --fs-6xl: 48px;
+        --fs-7xl: 60px;
+        /* font-weight: ; */
+        --fw-400: 400;
+        --fw-500: 500;
+        --fw-600: 600;
+        --fw-750: 750;
+        --fw-800: 800;
+        --fw-900: 900;
+        /* line-height: ; */
+        --line-16: 16px;
+        --line-24: 24px;
+        --line-32: 32px;
+        --line-33: 33px;
+        --line-36: 36px;
+        --line-43: 43px;
+        --line-47: 47px;
+        --line-55: 51px;
+        --line-60: 60px;
+        --line-62: 62px;
+        /* color: ; */
+        --white: #FFFFFF;
+        --black: #000000;
+        --light-black: #606060;
+        --black-3: #333333;
+        --color-1: #39B0B5;
+        --pink: #EDC2D1;
+        --pink-2: #FF6499;
+        --bg-color: #C3EDED;
+        --btn-color: #87EEF0;
+        --btn-border: #77C7C9;
+        --text-p: #606060;
+    --border-btn-2: #FF649952;
+    
+    
+    }
+}
+@media (min-width: 992px) {
+    :root {
+        /* font-size: ; */
+        --fs-sm: 12px;
+        --fs-md: 18px;
+        --fs-lg: 20px;
+        --fs-xl: 24px;
+        --fs-xxl: 28px;
+        --fs-3xl: 30px;
+        --fs-4xl: 32px;
+        --fs-5xl: 40px;
+        --fs-6xl: 48px;
+        --fs-7xl: 60px;
+        /* font-weight: ; */
+        --fw-400: 400;
+        --fw-500: 500;
+        --fw-600: 600;
+        --fw-750: 750;
+        --fw-800: 800;
+        --fw-900: 900;
+        /* line-height: ; */
+        --line-16: 16px;
+        --line-24: 24px;
+        --line-32: 32px;
+        --line-33: 33px;
+        --line-36: 36px;
+        --line-43: 43px;
+        --line-47: 47px;
+        --line-55: 55px;
+        --line-60: 60px;
+        --line-62: 62px;
+        /* color: ; */
+        --white: #FFFFFF;
+        --black: #000000;
+        --light-black: #606060;
+        --black-3: #333333;
+        --color-1: #39B0B5;
+        --pink: #EDC2D1;
+        --pink-2: #FF6499;
+        --bg-color: #C3EDED;
+        --btn-color: #87EEF0;
+        --btn-border: #77C7C9;
+        --text-p: #606060;
+    --border-btn-2: #FF649952;
+    
+    
+    }
 }
