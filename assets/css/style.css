@@ -886,8 +886,40 @@ padding-right: 5px;
     top: 246%;
     left: 13%;
 }
+/* scroll-web */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    cursor: pointer;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+    cursor: pointer;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(146.43deg, #FF2801 1.77%, #FF6B0A 62.74%);
 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(146.43deg,  #FF6B0A 1.77%,#FF2801  62.74%);
+    cursor: pointer;
 
+  }
+  
+
+.elips_17{
+    top: 20px;
+    left: 30px;
+    z-index: -2;
+}
 
 
 
@@ -913,7 +945,7 @@ padding-right: 5px;
 
 @media (max-width: 1530px) {
     .man_bg::after {
-        left: -30px;
+        left: -37px;
     }
 }
 
